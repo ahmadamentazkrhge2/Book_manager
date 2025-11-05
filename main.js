@@ -47,9 +47,9 @@ addBtn.addEventListener(("click"),()=>{
     manager.addBook(title,author,year)
     
     renderBooks();
-    title.value=""
-    author.value=""
-    year.value=""
+    titleInput.value=""
+    authorInput.value=""
+    yearInput.value=""
 })
 
 function renderBooks() {
